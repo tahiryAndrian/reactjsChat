@@ -1,7 +1,7 @@
 {
-  "name": "projectChat",
+  "name": "ast-project",
   "version": "1.0.0",
-  "description": "examen react",
+  "description": "reactExam",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -15,7 +15,7 @@
   "engines": {
     "node": ">=7.0.0"
   },
-  "author": "ratah",
+  "author": "Amit Ranan",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.23.1",
