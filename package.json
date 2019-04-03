@@ -1,0 +1,62 @@
+{
+  "name": "frontend-project",
+  "version": "1.0.0",
+  "description": "The Frontend take home project for DoorDash",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "api-server": "node server.js",
+    "postinstall": "webpack -p",
+    "test": "mocha --recursive --compilers setup.js js:babel-core/register --require ignore-styles",
+    "tdd": "npm test -- --watch",
+    "test-1": "mocha --require setup.js --recursive ./test",
+    "build": "webpack -p"
+  },
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "author": "Amit Ranan",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "chai": "^3.5.0",
+    "css-loader": "^0.27.0",
+    "enzyme": "^2.7.1",
+    "ignore-styles": "^5.0.1",
+    "jsdom": "^10.0.0",
+    "json-loader": "^0.5.4",
+    "mocha": "^3.2.0",
+    "moxios": "^0.3.0",
+    "nock": "^9.0.9",
+    "node-sass": "^4.5.0",
+    "nodemon": "^1.11.0",
+    "react-addons-test-utils": "^15.4.2",
+    "react-scripts": "^0.9.5",
+    "redux-logger": "^2.8.2",
+    "redux-mock-store": "^1.2.2",
+    "sass-loader": "^6.0.3",
+    "serve": "^3.1.0",
+    "sinon": "^2.1.0",
+    "standard": "^9.0.1",
+    "style-loader": "^0.13.2"
+  },
+  "repository": "https://github.com/amituuush/ChatApp.git",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "lodash": "^4.17.4",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+    "redux-promise": "^0.5.3",
+    "redux-thunk": "^2.2.0",
+    "shortid": "^2.2.8",
+    "webpack": "^1.13.3"
+  }
+}

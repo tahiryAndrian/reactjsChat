@@ -1,0 +1,13 @@
+.chat-room-container {
+  color: #fff;
+  padding: 1em 0em 1em 2em;
+
+  &:hover {
+    cursor: pointer;
+    background: #0f6fc3;
+  }
+}
+
+.active {
+  background: #0a4a82;
+}

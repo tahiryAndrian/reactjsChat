@@ -1,0 +1,25 @@
+.chat-header-container {
+  width: calc(100% - 175px);
+  padding: 1.7em 0em;
+  box-shadow: 0px 1px 6px #C7C9CA;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  text-align: center;
+
+  .current-room {
+    color: #696969;
+    font-size: 1.4em;
+    padding-bottom: 0.4em;
+  }
+
+  .user {
+    color: #696969;
+    font-size: 0.9em;
+  }
+
+  .active-user {
+    color: #117CD9;
+  }
+}
